@@ -19,6 +19,7 @@ var groupKeys = {
   sunpower:  67887,
   solarcity: 67886,
   other:     67580,
+  'borrego solar':       11111,
   'vivint solar':        67577,
   'clean power finance': 67885
 };

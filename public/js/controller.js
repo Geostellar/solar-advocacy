@@ -16,7 +16,7 @@ angular.module('i-like-solar').controller('fbCtrl',
     $scope.profileSolarized = false;
     $scope.coverSolarized   = false;
 
-    $scope.companies = ['Clean Power Finance', 'Enphase', 'SolarCity', 'Sungevity', 'SunPower', 'Sunrun', 'Vivint Solar', 'Other'];
+    $scope.companies = ['Borrego Solar', 'Clean Power Finance', 'Enphase', 'SolarCity', 'Sungevity', 'SunPower', 'Sunrun', 'Vivint Solar', 'Other'];
     if ($scope.companies.indexOf($scope.company) === -1) {
       $scope.company = null;
     }
@@ -185,7 +185,7 @@ angular.module('i-like-solar').controller('fbCtrl',
         if (picture == 'profile') {
            $scope.solarized_url = 'https://www.facebook.com/photo.php?fbid=' + resp.id;
 		} else {
-           $scope.solarized_cover_url = 'https://www.facebook.com/photo.php?fbid=' + resp.id;	
+           $scope.solarized_cover_url = 'https://www.facebook.com/photo.php?fbid=' + resp.id;
 		}
         $scope.milestones[1].img = 'ms2-filled.png';
         $scope.largeMilestones[0] = 'large2-filled.png';

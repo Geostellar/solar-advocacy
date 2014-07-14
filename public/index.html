@@ -25,8 +25,8 @@
       <div class="plug">
         <img ng-src="img/plug-left.png">
       </div>
-      
-      <div class="double-pane" ng-class="signUpClass" ng-show="!signedUp">        
+
+      <div class="double-pane" ng-class="signUpClass" ng-show="!signedUp">
         <div class="first-pane">
           <div ng-show="!signedUp">
             <span class="fb-title text">Generate power with a click</span>
@@ -34,36 +34,36 @@
             <img class="fb-login-btn" onClick="ga('send', 'event', 'button', 'click', 'big facebook');" ng-src="img/fb-logo.png" ng-click="login()" ng-disabled="joining">
           </div>
           <div class="fb-facepile" data-app-id="582937771761901" data-max-rows="2" data-colorscheme="light" data-size="medium" data-show-count="true" data-width="200"></div>
-        </div>      
+        </div>
         <div class="second-pane">
           <span class="text opening-paragraph">Sign up for I LIKE SOLAR to show your friends you have solar and help grow a huge solar community - 3x faster<sup>1</sup>! Did you know that people who know someone with solar chose to go solar 3x quicker themselves? It’s true! Getting solar was a great idea and great ideas deserve to be shared.  </span>
           <div class="small-text text">We will never post or change your profile without your consent.</div>
-        </div>        
+        </div>
       </div>
-     
+
       <div ng-class="signUpClass" ng-show="signedUp">
-          
+
             <div width="100%"><span class="fb-title text">Welcome {{name}}!</span></div>
             <div class="fb-facepile" data-app-id="582937771761901" data-max-rows="2" data-colorscheme="light" data-size="medium" data-show-count="true" data-width="200"></div>
             <div style="clear:both;"></div>
             <span class="text opening-paragraph">Thanks for helping to grow a huge solar community - 3x faster<sup>1</sup>! Did you know that people who know someone with solar chose to go solar 3x quicker themselves? It’s true! Getting solar was a great idea and great ideas deserve to be shared.</span>
           <div class="small-text text">We will never post or change your profile without your consent.</div>
-            
-       
-          
+
+
+
       </div>
-      
+
       <div class="plug" id="step-2">
         <img ng-src="img/plug-right.png">
       </div>
-      
-     
+
+
       <span class="title text">Solarize your profile</span>
       <div class="text body">One easy way to show your support is by adding solar to your profile.</div>
       <div class="solarized-examples center" style="background-image: url('{{coverUrl}}'); background-position:center {{offset}}%;">
-        
+
         <img class="profile-pic" ng-src="{{profileUrl}}">
-        
+
         <img class="leftyellowarrow" ng-src="img/left-yellow-arrow.png">
         <img class="rightyellowarrow" ng-src="img/right-yellow-arrow.png">
       </div>
@@ -109,7 +109,7 @@ friends. That’s
   <span class="num-wrapper">
     <img ng-src="img/140000000.png">
   </span>
-   more people knowing benefits of solar. 
+   more people knowing benefits of solar.
 </div>
 <div class="body text spacing">
    And even better, research shows that people who know somebody with solar, make the choice to go solar themselves
@@ -191,6 +191,9 @@ friends. That’s
       	</a>
       	<br>
       	<div class="body-small text">Participating solar companies:</div>
+        <a class="company-logo" href="http://www.borregosolar.com/" target="_blank">
+          <img ng-src="img/companies/borrego-solar.png">
+        </a>
         <a class="company-logo" href="http://www.cleanpowerfinance.com/" target="_blank">
           <img ng-src="img/companies/clean-power-finance.png">
         </a>
@@ -261,7 +264,7 @@ friends. That’s
         <p>
           Copyright: Solar Energy Industries Association 2014 All code was created using open source code on <a href="https://github.com/Social-Solar/solar-advocacy" target="_blank">Git Hub</a>.
         </p>
-        
+
       </div>
     </div>
 
